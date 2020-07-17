@@ -1,0 +1,151 @@
+a:hover{
+  color: #5D69A8;
+}
+
+body{
+  padding: 2rem 1rem 0 1rem;
+}
+.collapsible{
+  max-width: 500px;
+  margin: auto;
+}
+
+#info{
+  text-align: center;
+  line-height: normal;
+}
+#info > .icon > img{
+  width: 180px;
+  border-radius: 50%;
+  border: .4rem solid #C5CAE9;
+  display: block;
+  margin: auto;
+}
+#info > .name{
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: .5rem 0 .5rem 0;
+}
+#info > .join{
+  color: rgba(0,0,0,0.6);
+}
+#info > .join a{
+  text-decoration: underline;
+  color: rgba(0,0,0,0.6);
+}
+#info > .desc{
+  color: rgba(0,0,0,0.60);
+}
+#info > .sns{
+  padding: 1rem 0 1rem 0;
+}
+#info > .sns > a{
+  font-size: 2rem;
+  padding: 0 4px 0 4px;
+  color: rgba(0, 0, 0,.54)
+}
+#info > .sns > a > .fa-twitter:hover{
+  transition: .8s;
+  color: #1DA1F2;
+}
+#info > .sns > a > .fa-facebook:hover{
+  transition: .8s;
+  color: #3b5998;
+}
+#info > .sns > a > .fa-github:hover{
+  transition: .8s;
+  color: #333;
+}
+
+
+.collapsible-body{
+  background-color: #fff;
+}
+.collapsible .info{
+  line-height: normal;
+}
+.skills > .info{
+  display: block;
+  max-width: 500px;
+  margin: auto;
+  color: rgba(0, 0, 0,.54);
+  padding: 0 .5rem;
+  font-size: .8rem;
+}
+
+.material-icons{
+  color: rgba(0,0,0,0.6);
+}
+
+.c100{
+  margin: 0;
+}
+.skill-board{
+  margin: auto;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.skills > .skill-board > .skill-card{
+  width: calc(80px + 2rem);
+  margin: 0 auto;
+  padding: 1rem;
+}
+.skills > .skill-board > .skill-card > .skill{
+  display: inline-block;
+}
+.skills > .skill-board > .skill-card > .skill-name{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Works */
+.works{
+  line-height: normal;
+}
+.works > ul > li{
+  display: list-item;
+  list-style: inside;
+}
+.works > .work-title{
+  font-size: 1.2rem;
+  font-weight: medium;
+}
+.works .work-detail{
+  background-color: rgba(0,0,0,0.04);
+  padding: .5rem;
+  margin-left: .8rem;
+  border-radius: 4px;
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}
+
+.research{
+  line-height: normal;
+}
+.research > .title{
+  font-size: 1.2rem;
+}
+.research > .detail{
+  background-color: rgba(0,0,0,0.04);
+  padding: .5rem;
+  margin-left: .8rem;
+  border-radius: 4px;
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}
+.research a{
+  color: #1DA1F2;
+}
+
+/* Footer */
+footer{
+  padding: 1rem 0 1rem 0;
+  text-align: center;
+  color: rgba(0,0,0,0.6);
+}
+
+
+
