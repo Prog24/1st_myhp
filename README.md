@@ -1,3 +1,3 @@
-# My Site
+# Old My Site
 
-https://suzuki.dev
+https://old.suzuki.dev
